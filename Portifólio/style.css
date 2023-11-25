@@ -1,0 +1,294 @@
+
+/* ESTILO GERAL */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Saira Condensed', sans-serif;
+}
+
+body{
+    background-color: black;
+    height: 100vh;
+}
+
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.plus{
+    display: flex;
+}
+
+.CONTATO-PESSOAL button{
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #0CC0DF;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+h2.titlu{
+    color: #fff;
+    font-size: 38px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+h2.titlu span{
+    color: #0CC0DF;
+      margin-top: 100px;
+}
+
+h2.title{
+    color: #fff;
+    font-size: 38px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+h2.title span{
+    color: #0CC0DF;
+      margin-top: 100px;
+}
+
+button:hover{
+    box-shadow: 0px 0px 8px #0CC0DF;
+    transform: scale(1.05);
+}
+
+/* ESTILO DO CABEÇALHO */
+header{
+    padding: 5px;
+    top:0;
+    background-color: #000000;
+    width: 100%;
+    position: fixed;
+    z-index: 9999;
+   
+}
+
+header >.interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+    
+}
+
+header a{
+    color: #7d7d7d;
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+    z-index: 9999;
+}
+
+header a:hover{
+    color: white;
+    transform: scale(1.05);
+}
+
+header nav ul{
+    list-style-type: none;
+}
+
+header nav ul li{
+    display: inline-block;
+    padding: 0 40px;
+}
+
+/* ESTILO TOPO SITE */
+section.topo-do-site{
+    padding: 40PX 4%;
+}
+
+section.topo-do-site.plus{
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+
+.topo-do-site h1{
+    color: #fff;
+    font-size: 40px;
+    line-height: 40px;
+}
+.topo-do-site .txt-topo-do-site h1 span{
+    color: #0CC0DF;
+}
+.topo-do-site .txt-topo-do-site p{
+    color: #fff;
+    margin: 40px 0px;
+}
+
+.topo-do-site .img-topo-site img{
+    position: relative;
+    animation: juan 2s ease-in-out infinite alternate;
+    margin-top: 100px;
+}
+
+@keyframes juan{
+    0%{
+        top: 0;
+    }
+    100%{
+        top: 30px;
+    }
+}
+
+/* ESTILO DAS QLDS */
+
+section.habilidades{
+    padding: 40px 4%;
+}
+
+section.habilidades .plus{
+    gap: 60px;
+}
+
+.habilidades .hab-box{
+    color: #fff;
+    padding: 40px;
+    border-radius: 20px;
+    margin-top: 45px;
+    transition: .2s;
+}
+
+.habilidades .hab-box:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #ffffff78;
+}
+
+.habilidades .hab-box i{
+    font-size: 70px;
+    color: #0CC0DF;
+}
+
+.habilidades .hab-box h3{
+    font-size: 28px;
+    margin: 15px 0px;
+}
+section.sobre .sol{
+    display: flex;
+    align-items: center;
+}
+section.txt-sobre p{
+    margin-left: 20px;
+}
+
+/* ESTILO SOBRE */
+section.sobre{
+    padding: 80px 4%;
+}
+
+section.sobre .sol{
+    align-items: center;
+    gap: 60px;
+}
+
+.sobre .txt-sobre{
+    color: #fff;
+    
+}
+
+.sobre .txt-sobre h2{
+    font-size: 45px;
+    line-height: 40px;
+    margin-bottom: 35px;
+}
+
+.sobre .txt-sobre h2 span{
+    color: #0CC0DF;
+    display: block;
+}
+
+.sobre .txt-sobre p{
+    font-size: 20px;
+    text-align: justify;
+    margin: 20px 0;
+}
+
+.redes button{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 0;
+    background-color: #0CC0DF;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 0 5px;
+
+}
+/* ESTILO RODAPÉ */
+
+footer{
+    padding: 60px 4%;
+    display:flex;
+    justify-content: space-between;
+}.item{
+    width: 50%;
+}
+footer  .plus{
+    justify-content: space-between;
+}
+.imagem-animada{
+    position:relative;
+    z-index: 1;
+}
+
+.logooo{
+   width:500px;
+   height:300px ;
+}
+
+/* ESTILO DOS OBJS */
+
+section.objective{
+    padding: 40px 4px;
+}
+
+section.objective .jey{
+    gap: 60px;
+}
+
+.objective .obj-box{
+    color: #fff;
+    padding: 40px;
+    border-radius: 20px;
+    margin-top: 45px;
+    transition: .2s;
+}
+
+.objective .obj-box:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #ffffff78;
+}
+
+.objective .obj-box i{
+    font-size: 70px;
+    color: #0CC0DF;
+}
+
+.objective .obj-box h3{
+    justify-content: space-between;
+    font-size: 28px;
+    margin: 15px 0px;
+}
+.objective .obj-box {
+    list-style-type: none;
+}
+.objective .obj-box{
+
+display: inline-block;
+    padding: 0 50px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+}
